@@ -3,7 +3,7 @@
 Project developed in the **Certified Full Stack Developer** course from freeCodeCamp.
 
 ## Objective
-To practice working with HTML <table> element.
+To practice working with HTML table element.
 
 ## Technologies
 - HTML5
