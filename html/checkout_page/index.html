@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>Checkout Page</title>
+    </head>
+
+    <body>
+        <h1>Checkout</h1>
+
+        <section>
+            <h2>Your Cart</h2>
+
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/labs/spoon.jpg" alt="A left-handed silver spoon">
+                <figcaption>Left-handed spoon</figcaption>
+            </figure>
+
+            <p>$29.99</p>
+        </section>
+
+        <section>
+            <h2>Payment Information</h2>
+
+            <form method="POST" action="/payment-url">
+                <label id="card-name-label" for="card-name">Cardholder Name</label>
+                <input type="text" id="card-name" name="card-name" aria-required="true" required>
+
+                <br>
+
+                <label id="card-number-label" for="card-number">Card Number</label>
+                <input type="text" id="card-number" name="card-number" maxlength="19" aria-required="true" required>
+
+                <br>
+
+                <label id="card-expiry-date-label" for="card-expiry-date">Expiry Date</label>
+                <input type="text" id="card-expiry-date" name="card-expiry-date" placeholder="MM/YY" maxlength="5"
+                    aria-required="true" required>
+
+                <br>
+
+                <label id="card-cvv-label" for="card-cvv">CVV</label>
+                <input type="text" id="card-cvv" name="card-cvv" maxlength="4" aria-required="true" required>
+
+                <br>
+
+                <button type="submit">Place Order</button>
+
+            </form>
+        </section>
+    </body>
+
+</html>
