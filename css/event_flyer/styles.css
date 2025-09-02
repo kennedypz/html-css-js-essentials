@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0px auto;
+    width: 95vw;
+    min-height: calc(100vh - 100px);
+}
+
+hr {
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    margin: 30px auto;
+}
+
+section {
+    display: inline-block;
+    min-height: 100px;
+    width: 30%;
+    text-align: center;
+    vertical-align: top;
+    padding: 50px 5px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+li {
+    text-align: left;
+}
