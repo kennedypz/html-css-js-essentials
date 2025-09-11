@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.color-grid {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.color-box {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.color1 {
+    background-color: #ff02e3;
+}
+
+.color2 {
+    background-color: rgb(122, 199, 22);
+}
+
+.color3 {
+    background-color: coral;
+}
+
+.color4 {
+    background-color: hsl(190, 75%, 50%);
+}
+
+.color5 {
+    background-color: rgba(100, 100, 100, 25);
+}
